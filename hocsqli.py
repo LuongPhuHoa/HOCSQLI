@@ -432,7 +432,7 @@ def SQLIENTRURLPAYLOAD(TOR, OPTION):
 		PL.inforI(' Example :- {"ID":"1234567890"}')
 		cookies = input("Enter cookie :- ")
 		cookies = post_d(cookies)
-		if cookie == 0:
+		if cookies == 0:
 			PL.inforR('invalid data')
 			input()
 			SQLIENTRURLPAYLOAD(TOR, OPTION)
